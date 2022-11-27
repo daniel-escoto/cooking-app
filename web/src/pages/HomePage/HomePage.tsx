@@ -9,7 +9,7 @@ const HomePageButtons = () => {
     return (
       <div className="space-x-4">
         <Link
-          to={routes.adminRecipes()}
+          to={routes.recipes()}
           className="inline-flex items-center justify-center rounded-md border border-transparent bg-amber-600 px-5 py-3 text-base font-medium text-white shadow-sm hover:bg-amber-700"
         >
           See Recipes
