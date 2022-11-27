@@ -23630,6 +23630,7 @@ __metadata:
     "@redwoodjs/web": 3.5.0
     "@simplewebauthn/browser": ^6.2.2
     autoprefixer: ^10.4.13
+    humanize-string: 2.1.0
     postcss: ^8.4.19
     postcss-loader: ^7.0.1
     prop-types: 15.8.1
