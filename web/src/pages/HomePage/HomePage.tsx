@@ -47,15 +47,13 @@ const HomePage = () => {
     <>
       <MetaTags title="Home" description="Home page" />
 
-      <main className="bg-white dark:bg-gray-900 dark:text-white">
-        <body className="min-h-screen max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <main className="flex h-screen w-full flex-col items-center justify-center bg-white dark:bg-gray-900 dark:text-white">
+        <body className="flex min-h-screen max-w-7xl flex-col items-center justify-center px-4 py-8 sm:px-6 lg:px-8">
           <h1 className="text-center text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             <span className="block xl:inline">Welcome to</span>{' '}
-            <span className="block text-amber-600 xl:inline">
-              Cooki Recipes
-            </span>
+            <span className="block text-amber-600 xl:inline">Cooking-App</span>
           </h1>
-          <div className="mt-6 flex justify-center">
+          <div className="mt-8 flex justify-center space-x-4">
             <HomePageButtons />
           </div>
         </body>
