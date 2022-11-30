@@ -34,6 +34,8 @@ describe('recipes', () => {
         title: 'String',
         description: 'String',
         image: 'String',
+        ingredients: 'String',
+        steps: 'String',
         userId: scenario.recipe.two.userId,
       },
     })
@@ -41,6 +43,8 @@ describe('recipes', () => {
     expect(result.title).toEqual('String')
     expect(result.description).toEqual('String')
     expect(result.image).toEqual('String')
+    expect(result.ingredients).toEqual('String')
+    expect(result.steps).toEqual('String')
     expect(result.userId).toEqual(scenario.recipe.two.userId)
   })
 

@@ -39,12 +39,6 @@ export const deleteRecipe: MutationResolvers['deleteRecipe'] = ({ id }) => {
 }
 
 export const Recipe: RecipeRelationResolvers = {
-  ingredients: (_obj, { root }) => {
-    return db.recipe.findUnique({ where: { id: root?.id } }).ingredients()
-  },
-  steps: (_obj, { root }) => {
-    return db.recipe.findUnique({ where: { id: root?.id } }).steps()
-  },
   user: (_obj, { root }) => {
     return db.recipe.findUnique({ where: { id: root?.id } }).user()
   },

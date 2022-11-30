@@ -4,8 +4,8 @@ export const schema = gql`
     title: String!
     description: String!
     image: String!
-    ingredients: [Ingredient]!
-    steps: [Step]!
+    ingredients: [String]!
+    steps: [String]!
     userId: Int!
     user: User!
   }
@@ -19,6 +19,8 @@ export const schema = gql`
     title: String!
     description: String!
     image: String!
+    ingredients: [String]!
+    steps: [String]!
     userId: Int!
   }
 
@@ -26,6 +28,8 @@ export const schema = gql`
     title: String
     description: String
     image: String
+    ingredients: [String]!
+    steps: [String]!
     userId: Int
   }
 

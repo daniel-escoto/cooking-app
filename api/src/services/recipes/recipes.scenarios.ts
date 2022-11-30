@@ -8,9 +8,11 @@ export const standard = defineScenario<Prisma.RecipeCreateArgs>({
         title: 'String',
         description: 'String',
         image: 'String',
+        ingredients: 'String',
+        steps: 'String',
         user: {
           create: {
-            email: 'String4944824',
+            email: 'String3862965',
             hashedPassword: 'String',
             salt: 'String',
           },
@@ -22,9 +24,11 @@ export const standard = defineScenario<Prisma.RecipeCreateArgs>({
         title: 'String',
         description: 'String',
         image: 'String',
+        ingredients: 'String',
+        steps: 'String',
         user: {
           create: {
-            email: 'String3597369',
+            email: 'String7936925',
             hashedPassword: 'String',
             salt: 'String',
           },
